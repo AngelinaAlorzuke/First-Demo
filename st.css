@@ -1,0 +1,103 @@
+h1 {
+    font-style: oblique;
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    color: rgb(66, 58, 58);
+    text-align: center;
+}
+
+body.background{
+    filter: blur(400px); 
+    box-shadow: 40rem; 
+}
+p{
+font-size: large;
+}
+
+.container{
+    box-sizing: border-box;
+    box-shadow: 40px;
+    padding: 50px;
+}
+
+.box{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    box-shadow: 10px;
+    
+}
+
+.box1{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    position: static;
+}
+
+.box2{
+    height: 400px;
+    width: 250px;
+    background-color:gold;
+    text-align: center;
+    position: static;
+}
+
+.box3{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    position: static;
+}
+
+nav{
+    background-color: rgb(42, 136, 165);
+    height: auto;
+    width: 6000px;
+    position: absolute;
+    text-align: right;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+.clicky{
+    border-radius: 80px;
+    margin-top: 60px;
+    height: 40px;
+    width: 180px;
+    position: inherit;
+}
+
+.clicky:hover{
+    background-color: rgb(147, 152, 153);
+}
+
+
+form{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 15px;
+    border: none;
+    background: white;
+}
+
+form button:hover{
+    background: #08c7e9;
+    color:blue;
+}
